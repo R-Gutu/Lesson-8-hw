@@ -1,0 +1,141 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  border: 5px solid black;
+}
+
+@media (min-width: 1px) and (max-width: 500px) {
+  .container {
+    width: 450px;
+    height: 700px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  .container {
+    width: 780x;
+    height: 500px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1400px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 700px;
+  }
+}
+
+.container .child-one {
+  float: left;
+  height: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  border: 5px solid white;
+  background-color: red;
+}
+
+@media (min-width: 1px) and (max-width: 500px) {
+  .container .child-one {
+    width: 445px;
+    height: 210px;
+    left: 2px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  .container .child-one {
+    width: 770px;
+    height: 215px;
+    left: 1px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1400px) {
+  .container .child-one {
+    display: inline-block;
+    height: 650px;
+    width: auto;
+  }
+}
+
+.container .child-two {
+  float: left;
+  height: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  border: 5px solid white;
+  background-color: blue;
+}
+
+@media (min-width: 1px) and (max-width: 500px) {
+  .container .child-two {
+    width: 445px;
+    height: 210px;
+    left: 2px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  .container .child-two {
+    width: 380px;
+    height: 215px;
+    left: 1px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1400px) {
+  .container .child-two {
+    display: inline-block;
+    height: 650px;
+    width: auto;
+  }
+}
+
+.container .child-three {
+  float: left;
+  height: 150px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  border: 5px solid white;
+  background-color: yellow;
+}
+
+@media (min-width: 1px) and (max-width: 500px) {
+  .container .child-three {
+    width: 445px;
+    height: 210px;
+    left: 2px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  .container .child-three {
+    width: 389px;
+    height: 215px;
+    left: 1px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1400px) {
+  .container .child-three {
+    display: inline-block;
+    height: 650px;
+    width: auto;
+  }
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*# sourceMappingURL=index.css.map */

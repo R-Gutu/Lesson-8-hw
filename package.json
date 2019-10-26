@@ -1,0 +1,23 @@
+{
+  "name": "Lesson-8-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-Gutu/Lesson-8-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-Gutu/Lesson-8-hw/issues"
+  },
+  "homepage": "https://github.com/R-Gutu/Lesson-8-hw#readme",
+  "dependencies": {
+    "sass": "^1.23.1"
+  }
+}
