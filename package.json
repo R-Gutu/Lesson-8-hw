@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "sass:build": "sass ./style/index.scss ./css/index.css",
+    "sass:watch": "sass ./style/index.scss ./css/index.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

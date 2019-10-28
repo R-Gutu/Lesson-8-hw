@@ -5,12 +5,9 @@ html,body{
 }
 
 .container{
-    position: relative;
-    @media(min-width:1px) and (max-width:500px){
+        position: relative;
         width: 445px;
         height: 570px;
-        
-    }
     @media(min-width:501px) and (max-width:1000px){
         width: 832px;
         height: 405px;
@@ -26,13 +23,11 @@ html,body{
         
     }
     border: 5px solid black;
-    .child-one{
+    .red{
         @include children();
-        background-color:rgb(100, 10, 10);
-            @media(min-width:1px) and (max-width:500px){
+            background-color:rgb(100, 10, 10);
             width: 445px;
             left: 2px;
-            }
             @media(min-width:501px) and (max-width:1000px){
             width: 830px;
             }
@@ -41,13 +36,11 @@ html,body{
             width: 200px;
             }
     }
-    .child-two{
+    .blue{
         @include children();
-        background-color: rgb(20, 12, 88);
-            @media(min-width:1px) and (max-width:500px){
+            background-color: rgb(20, 12, 88);
             width: 445px;  
             left: 2px;
-            }
             @media(min-width:501px) and (max-width:1000px){
             width: 415px;
             }
@@ -56,13 +49,11 @@ html,body{
             width: 200px;
             }
     }
-    .child-three{
+    .green{
         @include children();
-        background-color: rgb(26, 109, 18);
-            @media(min-width:1px) and (max-width:500px){
+                background-color: rgb(26, 109, 18);
                 width: 445px;
                 left: 2px;
-            }
             @media(min-width:501px) and (max-width:1000px){
                 width: 415px;
             }
